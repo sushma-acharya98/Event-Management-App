@@ -22,8 +22,7 @@ A modern and minimal **Event Management System** built with **Next.js**, **TypeS
 
 ## ⚙️ Getting Started
 
-<details>
-  <summary><strong>🛠️ Install Dependencies</strong></summary>
+🛠️ Install Dependencies
 
 ```bash
 npm install
@@ -34,7 +33,8 @@ pnpm install
 # or
 bun install
 
-</details> <details> <summary><strong>🚀 Start Development Server</strong></summary>
+
+🚀 Start Development Server
 
 npm run dev
 # or
@@ -45,7 +45,9 @@ pnpm dev
 bun dev
 
 Then visit: http://localhost:3000
-</details> <details> <summary><strong>🗂️ Project Structure</strong></summary>
+
+
+🗂️ Project Structure
 
 app/
   ├── page.tsx           # Main navigation
@@ -90,12 +92,6 @@ utils/
 The easiest way to deploy this app is via Vercel:
 
 You can also follow Next.js Deployment Docs for other methods.
-📄 License
-
-This project is licensed under the MIT License.
-
-🙌 Contributing
-
 
 ---
 
