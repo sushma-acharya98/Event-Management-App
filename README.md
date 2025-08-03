@@ -99,6 +99,6 @@ You can also follow Next.js Deployment Docs for other methods.
 
 | Home Page | Add Event | Event List |
 |-----------|-----------|------------|
-| ![Home Page](screenshots/home.png) | ![Add Event](screenshots/add-event.png) | ![Event List](screenshots/event-list.png) |
+| !<a href="https://event-management-app-flame.vercel.app/public/home.png" target="_blank" rel="noopener noreferrer">Home Page</a> | !<a href="https://event-management-app-flame.vercel.app/public/add-event.png" target="_blank" rel="noopener noreferrer">add event</a> | !<a href="https://event-management-app-flame.vercel.app/public/edit-event.png" target="_blank" rel="noopener noreferrer"><edit-event</a> |
 
 ---
