@@ -49,16 +49,24 @@ Then visit: http://localhost:3000
 
 🗂️ Project Structure
 
-app/
-  ├── page.tsx           # Main navigation
-  ├── add-event/         # Add new event
-  ├── event-list/        # View all events
-  ├── edit-event/        # Edit event
-  └── delete-event/      # (Optional) Confirm delete
-types/
-  └── event.ts           # Event TypeScript interface
-utils/
-  └── storage.ts         # LocalStorage helpers
+src/
+├── app/
+│   ├── favicon.ico             # Site icon
+│   ├── globals.css             # Global styles
+│   ├── layout.tsx              # App layout
+│   ├── page.tsx                # Home page (event list + form)
+│   ├── components/
+│   │   ├── CalendarView.tsx    # (Optional) Calendar UI component
+│   │   ├── EventForm.tsx       # Reusable form component
+│   │   └── EventList.tsx       # Event listing UI
+│   ├── pages/
+│   │   ├── add.tsx             # Add new event page
+│   │   └── update.tsx          # Update event page
+├── types/
+│   └── event.ts                # TypeScript interfaces and types
+├── utils/
+│   └── storage.ts              # LocalStorage utility functions
+
 
 ✨ Features
 
