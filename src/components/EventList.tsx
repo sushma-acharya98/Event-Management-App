@@ -45,46 +45,49 @@ const EventList = () => {
                 }}
             >
                 <Typography variant="h6" fontWeight={600} gutterBottom>
-                {event.title}
+                    {event.title}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                📅 {dayjs(event.date).format("MMMM D, YYYY")}
+                    📅 {dayjs(event.date).format("MMMM D, YYYY")}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                📍 {event.venue}
+                    📍 {event.venue}
                 </Typography>
 
-                <Stack direction="row" spacing={2} mt={2}>
-                <Button
-                    variant="outlined"
-                    onClick={() => router.push(`/update?id=${event.id}`)}
-                    sx={{
-                    borderRadius: "999px",
-                    textTransform: "none",
-                    fontWeight: 500,
-                    }}
-                >
-                    ✏️ Edit
-                </Button>
+                <Box display="flex" justifyContent="center">
+                    <Stack direction="row" spacing={2} mt={2}>
+                        <Button
+                        variant="outlined"
+                        onClick={() => router.push(`/update?id=${event.id}`)}
+                        sx={{
+                            borderRadius: "999px",
+                            textTransform: "none",
+                            fontWeight: 500,
+                        }}
+                        >
+                        <span style={{ color: "white" }}>✏️</span> Edit
+                        </Button>
 
-                <Button
-                    variant="contained"
-                    color="error"
-                    onClick={() => handleDelete(event.id)}
-                    sx={{
-                    borderRadius: "999px",
-                    textTransform: "none",
-                    fontWeight: 500,
-                    background: "linear-gradient(to right, #ff4e50, #f30000)",
-                    boxShadow: "0 4px 8px rgba(255, 0, 0, 0.2)",
-                    "&:hover": {
-                        background: "linear-gradient(to right, #f30000, #ff4e50)",
-                    },
-                    }}
-                >
-                    🗑 Delete
-                </Button>
-                </Stack>
+                        <Button
+                        variant="contained"
+                        color="error"
+                        onClick={() => handleDelete(event.id)}
+                        sx={{
+                            borderRadius: "999px",
+                            textTransform: "none",
+                            fontWeight: 500,
+                            background: "linear-gradient(to right, #ff4e50, #f30000)",
+                            boxShadow: "0 4px 8px rgba(255, 0, 0, 0.2)",
+                            "&:hover": {
+                            background: "linear-gradient(to right, #f30000, #ff4e50)",
+                            },
+                        }}
+                        >
+                        <span style={{ color: "white" }}>🗑</span> Delete
+                        </Button>
+                    </Stack>
+                </Box>
+
             </Card>
             );
         })}

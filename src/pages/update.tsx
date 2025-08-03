@@ -17,10 +17,11 @@ const UpdatePage = () => {
     }, [id]);
 
     return (
-        <div style={{ padding: "2rem" }}>
-            <h2>Update Event</h2>
-            {event && <EventForm eventToEdit={event} />}
-        </div>
+        <>
+            <div className="update-event-page">
+                {event && <EventForm eventToEdit={event} />}
+            </div>
+        </>
     );
 }
 
