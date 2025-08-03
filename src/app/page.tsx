@@ -1,8 +1,10 @@
+'use client';
+
 import { Button } from "@mui/material";
 import Link from "next/link";
 import EventList from "@/components/EventList";
 
-const HomePage = () => {
+const Home = () => {
     return (
         <div className="event_box" style={{ padding: "2rem" }}>
             <h1>Event Manager</h1>
@@ -11,10 +13,9 @@ const HomePage = () => {
                     Add Event
                 </Button>
             </Link>
-
-            <EventList /> 
+            <EventList />
         </div>
     );
 }
 
-export default HomePage;
+export default Home;

@@ -2,7 +2,8 @@
 
 import { Button, Card, Typography } from "@mui/material";
 import { Event } from "@/types/event";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
+import { useRouter } from "next/navigation"; 
 import { getEvents, saveEvents } from "@/utils/storage";
 import { useEffect, useState } from "react";
 import dayjs from "dayjs";
