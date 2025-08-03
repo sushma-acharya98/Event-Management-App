@@ -65,7 +65,7 @@ const EventList = () => {
                             fontWeight: 500,
                         }}
                         >
-                        <span style={{ color: "white" }}>✏️</span> Edit
+                        Edit
                         </Button>
 
                         <Button
@@ -83,7 +83,7 @@ const EventList = () => {
                             },
                         }}
                         >
-                        <span style={{ color: "white" }}>🗑</span> Delete
+                        Delete
                         </Button>
                     </Stack>
                 </Box>

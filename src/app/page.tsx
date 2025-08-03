@@ -24,17 +24,27 @@ const Home = () => {
 
                 <Link href="/add" passHref>
                     <Button
+                        type="submit"
                         variant="contained"
                         size="large"
                         sx={{
-                            backgroundColor: "#d32f2f", // Red 700
-                            '&:hover': {
-                            backgroundColor: "#b71c1c", // Red 900
+                            mt: 1,
+                            borderRadius: "999px",
+                            textTransform: "none",
+                            paddingX: 4,
+                            paddingY: 1.2,
+                            fontWeight: "bold",
+                            fontSize: "1rem",
+                            background: "linear-gradient(to right, #ff416c, #ff4b2b)",
+                            boxShadow: "0 4px 10px rgba(255, 65, 108, 0.3)",
+                            transition: "all 0.3s ease",
+                            "&:hover": {
+                            background: "linear-gradient(to right, #ff4b2b, #ff416c)",
+                            boxShadow: "0 6px 16px rgba(255, 75, 43, 0.5)",
                             },
-                            mb: 4,
                         }}
                         >
-                        ➕ Add New Event
+                        Add New Event
                     </Button>
                 </Link>
 
