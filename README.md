@@ -99,7 +99,4 @@ You can also follow Next.js Deployment Docs for other methods.
 
 | Home Page | Add Event | Event List |
 |-----------|-----------|------------|
-| <a href="https://event-management-app-flame.vercel.app/public/home.png" target="_blank"><img src="https://event-management-app-flame.vercel.app/public/home.png" alt="Home Page" width="250"/></a> | <a href="https://event-management-app-flame.vercel.app/public/add-event.png" target="_blank"><img src="https://event-management-app-flame.vercel.app/public/add-event.png" alt="Add Event" width="250"/></a> | <a href="https://event-management-app-flame.vercel.app/public/edit-event.png" target="_blank"><img src="https://event-management-app-flame.vercel.app/public/edit-event.png" alt="Edit Event" width="250"/></a> |
-
-
----
+| <a href="https://event-management-app-flame.vercel.app/image/home.png" target="_blank" rel="noopener noreferrer"><img src="https://event-management-app-flame.vercel.app/image/home.png" alt="Home Page" width="250"/></a> | <a href="https://event-management-app-flame.vercel.app/image/add-event.png" target="_blank" rel="noopener noreferrer"><img src="https://event-management-app-flame.vercel.app/image/add-event.png" alt="Add Event" width="250"/></a> | <a href="https://event-management-app-flame.vercel.app/image/edit-event.png" target="_blank" rel="noopener noreferrer"><img src="https://event-management-app-flame.vercel.app/image/edit-event.png" alt="Edit Event" width="250"/></a> |
