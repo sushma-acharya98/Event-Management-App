@@ -24,17 +24,17 @@ const Home = () => {
 
                 <Link href="/add" passHref>
                     <Button
-                    variant="contained"
-                    size="large"
-                    sx={{
-                        backgroundColor: "#d32f2f", // Red 700
-                        '&:hover': {
-                        backgroundColor: "#b71c1c", // Red 900
-                        },
-                        mb: 4,
-                    }}
-                    >
-                    ➕ Add New Event
+                        variant="contained"
+                        size="large"
+                        sx={{
+                            backgroundColor: "#d32f2f", // Red 700
+                            '&:hover': {
+                            backgroundColor: "#b71c1c", // Red 900
+                            },
+                            mb: 4,
+                        }}
+                        >
+                        ➕ Add New Event
                     </Button>
                 </Link>
 
