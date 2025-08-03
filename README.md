@@ -93,3 +93,16 @@ You can also follow Next.js Deployment Docs for other methods.
 📄 License
 
 This project is licensed under the MIT License.
+
+🙌 Contributing
+
+
+---
+
+## 📸 Screenshots
+
+| Home Page | Add Event | Event List |
+|-----------|-----------|------------|
+| ![Home Page](screenshots/home.png) | ![Add Event](screenshots/add-event.png) | ![Event List](screenshots/event-list.png) |
+
+---
