@@ -1,25 +1,48 @@
 'use client';
 
-import { Button } from "@mui/material";
+import { Button, Container, Typography, Box, Paper } from "@mui/material";
 import Link from "next/link";
 import EventList from "@/components/EventList";
 
 const Home = () => {
     return (
-        <div className="event-box">
-            <div className="event-box-header">
-                <h1>Event Management App</h1>
-            </div>
-            <div className="event-box-button">
-                <Link href="/add">
-                    <Button variant="contained" sx={{ mb: 2 }}>
-                        Add Event
+        <Box
+            sx={{
+                minHeight: "100vh",
+                background: "linear-gradient(to right, #ffefba, #ffffff)",
+                py: 8,
+            }}
+        >
+        <Container maxWidth="md">
+            <Paper elevation={4} sx={{ p: 5, borderRadius: 4, textAlign: "center" }}>
+                <Typography variant="h4" fontWeight="bold" gutterBottom>
+                    🎉 Event Management App
+                </Typography>
+                <Typography variant="subtitle1" color="text.secondary" mb={4}>
+                    Organize and manage your events.
+                </Typography>
+
+                <Link href="/add" passHref>
+                    <Button
+                    variant="contained"
+                    size="large"
+                    sx={{
+                        backgroundColor: "#d32f2f", // Red 700
+                        '&:hover': {
+                        backgroundColor: "#b71c1c", // Red 900
+                        },
+                        mb: 4,
+                    }}
+                    >
+                    ➕ Add New Event
                     </Button>
                 </Link>
-            </div>
-            <EventList />
-        </div>
+
+                <EventList />
+            </Paper>
+        </Container>
+        </Box>
     );
-}
+};
 
 export default Home;
